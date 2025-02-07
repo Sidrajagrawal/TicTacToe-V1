@@ -1,0 +1,152 @@
+.front_page{
+    height: 90vh;
+    margin: 35px 0px;
+    background-image: linear-gradient(to bottom, #221833, #271938, #2c1a3d, #321a42, #381a47);
+    box-shadow: 1px 1px 20px black;
+
+}
+.title{
+    text-align: center;
+    margin-top: 70px;
+    color: #fff;
+    font-size: 50px;
+}
+.title span{
+    color: aquamarine;
+}
+.title:after{
+    display: block;
+    content: '';
+    width: 100px;
+    height: 3.5px;
+    background-color: aquamarine;
+    margin: auto;
+    margin-top: 7px;
+    border-radius: 9px;
+}
+.logo{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    height: 30%;
+    align-items: center;
+    color: #fff;
+}
+.logo h3{
+    font-size: 45px;
+    cursor: pointer;
+}
+.icon_o{
+    color:rgb(197, 95, 237);
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.btn button{
+    outline: none;
+    border: none;
+    padding: 10px 50px;
+    background-color: rgb(46, 204, 113);
+    font-size: 30px;
+    font-weight: 600;
+    transition: 0.3s;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 30px;
+}
+.btn button:hover{
+    background-color: rgb(39, 174, 96);
+    box-shadow: 1px 1px 2px white;
+    color: #fff;
+}
+.ch-btn{
+    display: flex;
+    height: 50%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.btn-x,.btn-o{
+    padding: 10px 30px;
+    font-size: 40px;
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    color: #eeeded;
+    border-radius: 50%;
+    font-weight: 600;
+    box-shadow: 2px 2px 10px black;
+    cursor: pointer;
+}
+.btn-x{
+    background-color: rgb(232, 65, 24);
+}
+.btn-o{
+    background-color: rgb(72, 126, 176);
+}
+.btn-x:hover{
+    background-color:rgb(194, 54, 22);
+    color: black;
+}
+.btn-o:hover{
+    background-color:rgb(64, 115, 158);
+    color: black;
+}
+.board{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 60%;
+}
+.row-1,.row-2,.row-3{
+    display: flex;
+    justify-content: center;
+}
+.board button{
+    margin: 1px 1px;
+    width: 80px;
+    height: 80px;
+    font-size: 30px;
+    font-weight: 800;
+    border: none;
+    border-radius: 1px;
+    background-color: rgba(142, 68, 173,0.7);
+
+}
+@media only screen and (min-width: 700px) and (max-width: 850px){
+    .div-1,.div-2{
+        width: 170px;
+    }
+    .front_page{
+        height: 90vh;
+        margin: 35px 0px;
+        width: 470px;
+        background-image: linear-gradient(to bottom, #221833, #271938, #2c1a3d, #321a42, #381a47);
+        box-shadow: 1px 1px 20px black;
+    }
+    .title{
+        font-size:65px;
+    }
+    .logo h3{
+        font-size: 70px;
+    }
+    .btn button{
+        padding: 25px 100px;
+        font-size: 50px;
+    }
+    .btn-x,.btn-o{
+        padding: 10px 20px;
+        font-size: 60px;
+        width: 130px;
+        height:130px;
+    }
+    .board{
+        height:70%;
+    }
+    .board button{
+        margin: 1.2px 1.2px;
+        width: 130px;
+        height: 130px;
+        font-size: 60px;
+    }
+}
